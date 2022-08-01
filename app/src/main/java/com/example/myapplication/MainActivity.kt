@@ -18,6 +18,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         name1 = findViewById(R.id.name1)
+        val text_email = intent.getStringExtra(EMAIL_INFO)
+        val text_email1 = text_email?.split('.')
+        if( '@' in text_email1?.get(0)!!) {
+            val text_email_dog =  text_email1.get(0).split("@")
+            name1.text = text_email_dog.get(0).capitalize()
+
+        } else if('@' in text_email1.get(1)){
+            val text_email_dog =  text_email1.get(1).split("@")
+            name1.text = text_email1.get(0).capitalize() + " " + text_email_dog.get(0).capitalize()
+        } else {
+            name1.text = text_email1.get(0).capitalize() + " " + text_email1.get(1).capitalize()
+        }
+
+
     }
 
 

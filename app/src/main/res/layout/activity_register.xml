@@ -18,7 +18,9 @@
         android:layout_marginTop="200dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:hint="email"
+        android:hint="email:"
+        android:textColorHint="@color/white_200"
+
         />
 
     <EditText
@@ -31,7 +33,9 @@
         android:layout_marginTop="16dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:hint="pass"
+        android:hint="pass:"
+        android:textColorHint="@color/white_200"
+        android:inputType="textPassword"
         />
 
     <Button
