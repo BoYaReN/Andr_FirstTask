@@ -8,12 +8,16 @@ import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var textView: TextView
+    private lateinit var name1: TextView
+
+    companion object{
+        const val EMAIL_INFO = "EMAIL_INFO"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        textView = findViewById(R.id.Text1)
+        name1 = findViewById(R.id.name1)
     }
 
 
