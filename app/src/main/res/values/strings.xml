@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="language">
+        <item>UA</item>
+        <item>ENG</item>
+    </string-array>
+
+    <string name="pass">password:</string>
+    <string name="email">email:</string>
+
+    <string name="SettingText">Setting</string>
+    <string name="buttonReg">Sing Up</string>
+    <string name="buttonContacts">View My Contacts</string>
+    <string name="buttonEditProfile">Edit Profile</string>
+
+
 </resources>
