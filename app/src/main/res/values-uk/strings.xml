@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="language">
+        <item>UA</item>
+        <item>ENG</item>
+    </string-array>
+
+    <string name="pass">пароль:</string>
+    <string name="email">електронна пошта:</string>
+
+    <string name="SettingText">Налаштування</string>
+    <string name="buttonReg">Зареєструватись</string>
+    <string name="buttonContacts">Мої контакти</string>
+    <string name="buttonEditProfile">Редагувати профіль</string>
+
+</resources>
